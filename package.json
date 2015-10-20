@@ -13,6 +13,11 @@
         "test": "mocha --reporter dot",
         "lint": "jshint ."
     },
+    "browserify": {
+        "transform": [
+            "babelify"
+        ]
+    },
     "devDependencies": {
         "jshint": "^2.6.3",
         "mocha": "^2.2.4"
